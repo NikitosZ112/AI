@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Аудио в текст</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="container">
+    <div>
+        <h1>Обработка и генерация аудио файла в тексотый формат.</h1>
+    <ul>
+        <li>Выберите формат файла .wav или .mp3.</li>
+        <li>Аудио запись не должна превышать длительность более 5 минут</li>
+        <li>Нажать на кпонку "Выберите файл", выбрать файл на своем ПК</li>
+        <li>Нажмите кнопку "загрузить файл"</li>
+        <li>Ожидайте результата</li>
+    </ul>
+    <form class="downfile" enctype="multipart/form-data">
+        <input class="upload-button" type="file" id="fileInput" />
+        <button class="upload-button" type="submit">Загрузить файл</button>
+      </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
